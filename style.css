@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    color: dimgray;
+}
 .name_hilight{
     color: orange;
 }
@@ -31,5 +34,9 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
-
+}
+.dream-area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
