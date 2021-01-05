@@ -25,7 +25,8 @@ p{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 700px;
+    display: inline-block;
 }
 .link-button{
     text-decoration: none;
@@ -39,4 +40,24 @@ section{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+}
+.experince-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image:  linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
