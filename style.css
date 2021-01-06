@@ -45,10 +45,13 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
     height: 50%;
+    width: 38%;
+    background-color: white;
 }
 .experince-area{
     background-image: url(img/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
     
 }
 #full-stack{
@@ -60,4 +63,8 @@ section{
     border-left: 7px solid;
     border-image:  linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    
 }
